@@ -1,0 +1,119 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+/*     background-color: rgb(32,33,36);
+ */
+background-color: #101820;
+}
+                                                              /* CONTAINER 1   START GAME*/
+.container1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container1 h1 {
+    color: #FEE715;
+    font-size: 4rem;
+}
+
+.container1 button {
+    background-color: #3fb950;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #0f651b;
+    transition: all;
+}
+
+.container1 button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+  }
+  
+  div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+                                                /* CONTAINER 2    INSTRUCTIONS PAGE */
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container2 .main {
+   text-align: center;
+   padding: 60px 60px;
+   background-color: #FEE715;
+   border-radius: 20px;
+   box-shadow: 0 0 5px 1px #FEE715;
+}
+
+
+.container2 .main h2 {
+    color:#00008B;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.container2 .main p {
+  font-size: 20px;
+  color:#00008B;
+  width: 600px;
+}
+
+.container2 button {
+    background-color: #3fb950;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #0f651b;
+    transition: all;
+}
+
+.container2 button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
