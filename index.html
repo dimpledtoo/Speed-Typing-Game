@@ -9,13 +9,15 @@
 </head>
 <body>
 
+    <!-- Container 1 Landing Page -->
 
-<div class="container1 fadeOut"> 
+<div class="container1"> 
     <h1 class="typingdiv"></h1>
     <button>Start Game</button>
 </div>
 
 
+<!-- Container 2 Instructions Page -->
 
 <div class="container2 fadeOut">
     <div class="main">
@@ -27,22 +29,22 @@
 
  
 
-<div class="container3">
+<!-- Container 3 Main Game -->
+
+<div class="container3 fadeIn">
 <div class="scores">
-    <p>Score: 0</p>
-    <p>HighScore: 0</p>
+    <p id="score">Score: 0</p>
+    <p id="highscore">HighScore: 0</p>
 </div>
-<p>50</p>
+<p id="timer">50</p>
 
-    <div class="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio qui dicta voluptas maiores, minus possimus, cupiditate minima nam ut deleniti sequi quam sit cum eum sunt corrupti ipsum. Consequatur, sunt?</div>
+    <div class="quote"></div>
 
-    <textarea id="quoteInput" class="quoteInput" autofocus></textarea>
-
-    <p>Errors: 0</p>
+    <textarea id="quoteInput" class="quoteInput" placeholder="Type here..." autofocus></textarea>
 
 
 
-    <div>
+    <div class="difficulty">
         <button>Easy</button>
         <button>Medium</button>
         <button>Hard</button>
